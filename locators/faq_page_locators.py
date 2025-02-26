@@ -1,0 +1,20 @@
+from selenium.webdriver.common.by import By
+
+class FAQPageLocators:
+    COOKIE_BUTTON = (By.ID, "rcc-confirm-button")
+    FAQ_BUTTON_1 = (By.ID, "accordion__heading-0")
+    FAQ_TEXT_1 = (By.ID, "accordion__panel-0")
+    FAQ_BUTTON_2 = (By.ID, "accordion__heading-1")
+    FAQ_TEXT_2 = (By.ID, "accordion__panel-1")
+    FAQ_BUTTON_3 = (By.ID, "accordion__heading-2")
+    FAQ_TEXT_3 = (By.ID, "accordion__panel-2")
+    FAQ_BUTTON_4 = (By.ID, "accordion__heading-3")
+    FAQ_TEXT_4 = (By.ID, "accordion__panel-3")
+    FAQ_BUTTON_5 = (By.ID, "accordion__heading-4")
+    FAQ_TEXT_5 = (By.ID, "accordion__panel-4")
+    FAQ_BUTTON_6 = (By.ID, "accordion__heading-5")
+    FAQ_TEXT_6 = (By.ID, "accordion__panel-5")
+    FAQ_BUTTON_7 = (By.ID, "accordion__heading-6")
+    FAQ_TEXT_7 = (By.ID, "accordion__panel-6")
+    FAQ_BUTTON_8 = (By.ID, "accordion__heading-7")
+    FAQ_TEXT_8 = (By.ID, "accordion__panel-7")
