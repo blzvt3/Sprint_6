@@ -1,0 +1,25 @@
+from selenium.webdriver.common.by import By
+
+class OrderPageLocators:
+    COOKIE_BUTTON = (By.ID, "rcc-confirm-button")
+    SCOOTER_BUTTON = (By.CLASS_NAME, "Header_LogoScooter__3lsAR")
+    YANDEX_BUTTON = (By.CLASS_NAME, "Header_LogoYandex__3TSOI")
+    FIND_BUTTON = (By.XPATH, "//button[text() = 'Найти']")
+    ORDER_BUTTON_TOP = (By.CLASS_NAME, "Button_Button__ra12g")
+    ORDER_BUTTON_DOWN = (By.XPATH, "//div[contains(@class, 'Home_FinishButton__1_cWm')]//button")
+    NEXT_BUTTON = (By.XPATH, "//button[text() = 'Далее']")
+
+    NAME_INPUT = (By.XPATH, "//input[@placeholder = '* Имя']")
+    SURNAME_INPUT = (By.XPATH, "//input[@placeholder = '* Фамилия']")
+    ADDRESS_INPUT = (By.XPATH, "//input[@placeholder = '* Адрес: куда привезти заказ']")
+    METRO_INPUT = (By.XPATH, "//input[@placeholder = '* Станция метро']")
+    METRO_BUTTON = (By.CLASS_NAME, "select-search__select")
+    PHONE_INPUT = (By.XPATH, "//input[@placeholder = '* Телефон: на него позвонит курьер']")
+    DATE_INPUT = (By.XPATH, "//input[@placeholder = '* Когда привезти самокат']")
+    RENTAL_PERIOD_BUTTON = (By.XPATH, "//div[text() = '* Срок аренды']")
+    ONE_DAY_BUTTON = (By.XPATH, "//div[text() = 'сутки']")
+    BLACK_COLOR_BUTTON = (By.ID, "black")
+    COMMENT_INPUT = (By.XPATH, "//input[@placeholder = 'Комментарий для курьера']")
+    ORDER_BUTTON = (By.XPATH, "//div[contains(@class, 'Order_Buttons__1xGrp')]/button[contains(text(), 'Заказать')]")
+    YES_BUTTON = (By.XPATH, "//button[text() = 'Да']")
+    ORDER_PLACED_TEXT = (By.XPATH, "//div[text() = 'Заказ оформлен']")
